@@ -1,0 +1,28 @@
+:root {
+  --gray: #444;
+  --white: #eee;
+}
+
+/* main container */
+.add-task-container {
+  margin: 15px 0px;
+  width: 100%;
+  display: flex;
+}
+
+/* text input */
+.add-task-input {
+  height: 40px;
+  background: var(--gray);
+  border-radius: 5px;
+  border: none;
+  padding: 0 15px;
+  color: var(--white);
+  flex: 2;
+}
+
+/* button container */
+.add-button-container {
+  margin-left: 10px;
+  flex: 1;
+}

@@ -1,0 +1,40 @@
+.task-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--gray);
+  color: var(--white);
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+
+.task-title {
+  cursor: pointer;
+}
+
+.buttons-container {
+  min-width: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.remove-task-button,
+.info-task-button {
+  background: var(--gray);
+  border: none;
+  color: chartreuse;
+  font-size: 24px;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+
+.remove-task-button:hover {
+  color: red;
+  transition: all 0.2s ease;
+}
+
+.info-task-button:hover {
+  color: yellow;
+  transition: all 0.2s ease;
+}
