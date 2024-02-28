@@ -14,3 +14,5 @@ Salvar suas tarefas em um lista de tarefas dinâmica.
 ## Objetivo do desenvolvimento do projeto
 
 Entender a estrutura de um projeto React.js, funcionamento de componentes, hooks, fragments e prop drilling.
+
+[Link para o projeto em deploy](https://todo-react-phi-one.vercel.app/)
