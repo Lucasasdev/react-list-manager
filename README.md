@@ -1,18 +1,14 @@
-# Gerenciador de tarefas com React.js
+# Adiministrador de tarefas em React
+
+**[projeto](https://todo-react-phi-one.vercel.app/)**
 
 ## Proposta do projeto
 
-Salvar suas tarefas em um lista de tarefas dinâmica.
-
-#### Com as funcionalidades;
-
-- Criar e salvar um tarefa
-- Excluir tarefa
-- Marcar como concluída ou pendente
-- Visualizar detalhe da tarefa
+Salvar e axibir suas tarefas em uma lista dinâmicamente, marcar e desmarcar tafefas e exibir detalhes sobre a cada tarefa.
 
 ## Objetivo do desenvolvimento do projeto
 
 Entender a estrutura de um projeto React.js, funcionamento de componentes, hooks, fragments e prop drilling.
 
-[Link para o projeto em deploy](https://todo-react-phi-one.vercel.app/)
+## Tecnologias
+**JavaScript, React, HTML, CSS**
