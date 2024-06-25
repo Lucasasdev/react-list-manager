@@ -2,13 +2,16 @@
 
 ![](https://github.com/Lucasasdev/react-list-manager/blob/master/public/to-do-list.png)
 
-### Proposta do [projeto](https://todo-react-phi-one.vercel.app/)
+### Proposta do [projeto](https://todo-react-phi-one.vercel.app/):
 
-Salvar e axibir suas tarefas em uma lista dinâmicamente, marcar e desmarcar tafefas e exibir detalhes sobre a cada tarefa.
+Salvar e axibir suas tarefas na lista além de marcar e desmarcar tafefas concluídas e exibir detalhes sobre a cada tarefa.
 
-## Objetivo do desenvolvimento do projeto
+## Objetivo do desenvolvimento do projeto:
 
-Entender a estrutura de um projeto React.js, funcionamento de componentes, hooks, fragments e prop drilling.
+Entender na prática a estrutura de um projeto React.js e aplicar alguns conceitos como componentes, hooks, fragments e prop drilling.
 
-## Tecnologias
-**JavaScript, React, HTML, CSS**
+## Tecnologias:
+- JavaScript; 
+- React.js;
+- HTML5;
+- CSS3.
