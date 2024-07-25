@@ -1,4 +1,4 @@
-# Adiministrador de tarefas em React
+# Gerenciador de tarefas em React
 
 ![](https://github.com/Lucasasdev/react-list-manager/blob/master/public/to-do-list.png)
 
