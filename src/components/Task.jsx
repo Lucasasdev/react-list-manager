@@ -3,10 +3,10 @@ import "./Task.css";
 import { CgClose, CgInfo } from "react-icons/cg";
 import { useNavigate } from "react-router-dom";
 
-//that component keep just the task elements
 const Task = ({ task, handleTaskClick, handleTaskRemove }) => {
   const navigate = useNavigate();
 
+  //Passes the parameter as part of the URL when clicking to go to the details page.
   const handleTaskDetailsClick = () => {
     navigate(`/${task.title}`);
   };
@@ -32,8 +32,6 @@ const Task = ({ task, handleTaskClick, handleTaskRemove }) => {
       </div>
     </div>
   );
-
-  // return <div className="task-container">{task.title}</div>;
 };
 
 export default Task;

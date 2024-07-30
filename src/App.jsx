@@ -82,33 +82,26 @@ const App = () => {
   // General interface with all components (main component)
   return (
     <BrowserRouter>
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <div className="container">
-              <Header />
-              <AddTask handleTaskAddition={handleTaskAddition} />
-              <Tasks
-                tasks={tasks}
-                handleTaskClick={handleTaskClick}
-                handleTaskRemove={handleTaskRemove}
-              />
-            </div>
-          }
-        />
-
-        <Route
-          path="/:tasktitle"
-          exact
-          element={
-            <div className="container">
-              <Header />
-              <TaskDetails />
-            </div>
-          }
-        />
-      </Routes>
+      <div className="container">
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Header />
+                <AddTask handleTaskAddition={handleTaskAddition} />
+                <Tasks
+                  tasks={tasks}
+                  handleTaskClick={handleTaskClick}
+                  handleTaskRemove={handleTaskRemove}
+                />
+              </>
+            }
+          />
+          {/*route that receive acd param*/}
+          <Route path="/:tasktitle" exact Component={TaskDetails} />
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 };

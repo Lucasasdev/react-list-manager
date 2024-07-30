@@ -1,8 +1,7 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
-
 import Button from "./Button";
-
+import Header from "./Header";
 import "./TaskDetails.css";
 
 const TaskDetails = () => {
@@ -11,11 +10,13 @@ const TaskDetails = () => {
   const navigate = useNavigate();
 
   const handleTaskBackClick = () => {
+    //same action of navgate.goBack()
     navigate(-1);
   };
 
   return (
     <>
+      <Header />
       <div className="back-button-container">
         <Button onClick={handleTaskBackClick}>Voltar</Button>
       </div>
