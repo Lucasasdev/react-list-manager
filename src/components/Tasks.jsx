@@ -4,7 +4,7 @@ import Task from "./Task";
 const Tasks = ({ tasks, handleTaskClick, handleTaskRemove }) => {
   return (
     <>
-      {tasks.map((task) => (
+      {tasks.slice(0, 10).map((task) => (
         <Task
           key={task.id}
           task={task}
